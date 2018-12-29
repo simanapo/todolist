@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>ToDo List</title>
+
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!--Import materialize.css-->
+    <link href="/static/css/materialize.css" rel="stylesheet" media="screen,projection">
+</head>
+<body>
+    <div class="box pd30 detail-box">
+        <div class="bd-bottom">
+            <h1 class="detail-title">ToDo List</h1>
+                <div id="memo_form" class="smoothswap">
+                </div>
+            <div class="memo_form_center"><p id="add_memo_form_button" class="btn-flat sub-btn"><i class="material-icons middle">add</i></p></div>
+        </div>
+        <!-- For additional -->
+        <div id="original_memo_form" style="display:none">
+            <input type="text" class="update_memo_button" name="memo_content">
+            <div class="change_arrows down"><i class="material-icons smoothswap-down">arrow_downward</i></div>
+            <div class="change_arrows up"><i class="material-icons smoothswap-up">arrow_upward</i></div>
+            <button class="delete_forever delete_memo_button"><i class="material-icons">delete_forever</i></button>
+        </div>
+        <!-- For additional -->
+    </div>
+</body>
+    <!-- Scripts -->
+    <script src="/static/js/app.js"></script>
+    <script src="/static/js/jquery.smoothswap.js"></script>
+    <script src="/static/js/script.js"></script>
+    <script src="/static/js/load.js"></script>
+</html>
